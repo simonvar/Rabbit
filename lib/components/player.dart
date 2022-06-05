@@ -9,7 +9,6 @@ class Player extends SpriteAnimationComponent
     with HasGameRef, CollisionCallbacks {
   final double _playerSpeed = 200.0;
   final double _animationSpeed = 0.15;
-  var _animationTime = 0.0;
   SpriteAnimation? _runDownAnimation;
   SpriteAnimation? _runLeftAnimation;
   SpriteAnimation? _runUpAnimation;
