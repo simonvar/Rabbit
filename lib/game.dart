@@ -4,10 +4,11 @@ import 'package:flame/game.dart';
 import 'package:flame/components.dart';
 import 'package:flame/input.dart';
 import 'components/world.dart';
-import 'components/world_hitbox.dart';
 import 'components/rabbit.dart';
+import './components/world/grass.dart';
 
-class RabbitGame extends FlameGame with ScrollDetector, ScaleDetector {
+class RabbitGame extends FlameGame
+    with ScrollDetector, ScaleDetector, HasTappables {
   static const zoomPerScrollUnit = 0.02;
   final Vector2 viewportResolution;
   double startZoom = 1.0;
@@ -19,10 +20,9 @@ class RabbitGame extends FlameGame with ScrollDetector, ScaleDetector {
     required this.viewportResolution,
   });
 
-
   @override
   Color backgroundColor() {
-    return Color.fromRGBO(174, 207, 78, 1);
+    return Color.fromRGBO(139, 203, 183, 1);
   }
 
   @override

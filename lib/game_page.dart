@@ -13,7 +13,7 @@ class MainGameState extends State<GamePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromRGBO(78, 69, 60, 1),
+        backgroundColor: const Color.fromRGBO(139, 203, 183, 1),
         body: GameWidget(
             game: RabbitGame(
                 viewportResolution: Vector2(

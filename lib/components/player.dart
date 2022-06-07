@@ -2,7 +2,6 @@ import 'dart:developer' as developer;
 import 'package:flame/components.dart';
 import 'package:flame/sprite.dart';
 import 'package:flame/collisions.dart';
-import './world_hitbox.dart';
 import '../helpers/direction.dart';
 
 class Player extends SpriteAnimationComponent

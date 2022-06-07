@@ -42,4 +42,6 @@ flutter:
     - assets/
     - assets/images/
     - assets/images/characters/
-    - assets/rayworld_collision_map.json
+    - assets/images/tiles/
+    - assets/images/objects/
+    - assets/audio/

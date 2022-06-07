@@ -1,8 +1,10 @@
 import 'dart:developer' as developer;
 import 'package:flame/components.dart';
 import 'package:flame/sprite.dart';
+import 'package:flame_audio/audio_pool.dart';
+import 'package:flame_audio/flame_audio.dart';
 
-class Rabbit extends SpriteAnimationComponent with HasGameRef {
+class Rabbit extends SpriteAnimationComponent with HasGameRef, Tappable {
   final double _animationSpeed = 0.45;
   SpriteAnimation? _runDownAnimation;
   SpriteAnimation? _runLeftAnimation;
@@ -16,6 +18,12 @@ class Rabbit extends SpriteAnimationComponent with HasGameRef {
   Future<void> onLoad() async {
     super.onLoad();
     _loadAnimations().then((_) => {animation = _standingAnimation});
+  }
+
+  @override
+  bool onTapDown(_) {
+    FlameAudio.audioCache.play("click_rabbit.wav");
+    return true;
   }
 
   Future<void> _loadAnimations() async {
