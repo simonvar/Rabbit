@@ -1,16 +1,17 @@
 # rabbit
 
-A new Flutter project.
+##### Developer
+- Made by: simonvar
+- Telegram: https://t.me/simonvardev
 
-## Getting Started
+### Resources
 
-This project is a starting point for a Flutter application.
+##### Sprites & Animation
+- Made by: Cup Nooble 
+- Twitter: https://twitter.com/Sprout_Lands
+- Source: https://cupnooble.itch.io/sprout-lands-asset-pack
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##### Sound FX
+- Made by: JDWasabi
+- Twitter: https://twitter.com/JDWasabi
+- Source: https://jdwasabi.itch.io/8-bit-16-bit-sound-effects-pack
